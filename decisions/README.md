@@ -21,15 +21,17 @@ even if a project's repository is later renamed, archived, or moved.
 
 ## File naming
 
-`YYYY-MM-DD-<slug>.md`, ordered by decision date.
+`YYYY-NNN-<slug>.md`, where `NNN` is a zero-padded sequence number for
+that year (e.g. `2026-001-repository-naming-policy.md`). Numbering
+belongs in governance records, not in repository names.
 
 ## Minimal entry shape
 
 ```markdown
 ---
 date: 2026-05-02
-type: acceptance | archival | reassignment | other
-project: iatf-<name>
+type: acceptance | archival | reassignment | policy | other
+project: iatf-<project-slug>      # if applicable
 ---
 
 Short description of what was decided and why.

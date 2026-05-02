@@ -24,10 +24,10 @@ in that area.
 ## What does **not** live here
 
 - **Raw intake from the website form.** Those go to the private
-  `iatf-requests` repository. Records here are summaries that have been
+  `iatf-intake` repository. Records here are summaries that have been
   filtered, redacted, and approved for publication.
 - **Project source code.** Each accepted project lives in its own
-  `iatf-<project-name>` repository.
+  `iatf-<project-slug>` repository.
 - **Live discussion.** Conversations happen on Discord and in repo
   issues. Decisions that affect a project or governance are summarized
   into this repository when they are made.
